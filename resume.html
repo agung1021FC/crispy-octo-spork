@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Pengalaman dengan AI</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: #3498db;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-top: 0;
+        }
+        
+        .experience {
+            margin-bottom: 20px;
+        }
+        
+        .experience-title {
+            display: flex;
+            justify-content: space-between;
+            font-weight: bold;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .skill {
+            background-color: #e8f4fc;
+            padding: 5px 10px;
+            border-radius: 3px;
+        }
+        
+        .highlight-box {
+            background-color: #f0f8ff;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>~AGUNG RAHMANA PUTRA~</h1>
+        <div class="contact-info">
+            <span>📧 {agungrp1021@gmail.com}</span>
+            <span>📞 {+62 822-1190-2845}</span>
+            <span>📍 {paniai Timur, Papua, Indonesia}</span>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Ringkasan Profesional</h2>
+        <p>Pemrogram dan problem solver berpengalaman dengan fokus pada pengembangan solusi digital menggunakan teknologi terkini. Selama menggunakan AI, telah menguasai berbagai teknik pemrograman secara efektif untuk menyelesaikan masalah kompleks dengan pendekatan kreatif.</p>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Pengalaman dengan AI</h2>
+        
+        <div class="experience">
+            <div class="experience-title">
+                <span>Asisten Pengembangan AI</span>
+                <span>mulai pada tahun 2024 - Sekarang</span>
+            </div>
+            <ul>
+                <li>Mengoptimalkan alur kerja pengembangan dengan memanfaatkan AI untuk pemecahan masalah teknis dan debugging</li>
+                <li>Membangun berbagai project web dan aplikasi dengan panduan AI secara efisien</li>
+                <li>Meningkatkan kemampuan problem solving melalui latihan algoritma dan struktur data</li>
+                <li>Belajar best practices dalam pengembangan perangkat lunak modern</li>
+            </ul>
+            
+            <div class="highlight-box">
+                <p><strong>Pencapaian Utama:</strong> Berhasil menyelesaikan 15 project pemrograman dengan bimbingan AI, termasuk project tugas - tugas kuliah dan web.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Keahlian Teknis</h2>
+        <div class="skills">
+            <div class="skill">Pemrograman Web</div>
+            <div class="skill">HTML/CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Pemecahan Masalah</div>
+            <div class="skill">Algoritma</div>
+            <div class="skill">Debugging</div>
+            <div class="skill">Pemrograman Fungsional</div>
+            <div class="skill">Manajemen Proyek</div>
+            <div class="skill">Konsep OOP</div>
+        </div>
+    </div>
+      
+         <h2 class="section-title">Project Penting</h2>
+        <ul>
+            <li><strong>Sistem Manajemen Konten</strong> - Membangun CMS modern dengan HTML, CSS, dan JavaScript termasuk fitur CRUD dan autentikasi</li>
+            <li><strong>Web Scraping Tool</strong> - Mengembangkan alat Python untuk ekstraksi dan analisis data dari berbagai sumber</li>
+            <li><strong>Aplikasi To-Do List</strong> - Membuat aplikasi produktivitas dengan fitur drag-drop dan penyimpanan lokal</li>
+            <li><strong>Kalkulator Ilmiah Web</strong> - Mengimplementasikan berbagai fungsi matematika komples dengan antarmuka responsif</li>
+        </ul>
+  
+    <div class="section">
+        <h2 class="section-title">Pendidikan</h2>
+        <div class="experience">
+            <div class="experience-title">
+                <span>Universitas Terbuka (UT)</span>
+                <span>mulai tahun: 2023 selesai tahun: 2027 (perkiraan)</span>
+            </div>
+            <p>jurusan: Sistem Informasi (SI)</p>
+        </div>
+    </div>
+    
+    <script>
+        // Fungsi sederhana untuk menghitung lama penggunaan
+        document.addEventListener('DOMContentLoaded', function() {
+            const startDate = new Date('[Tanggal Mulai]');
+            const currentDate = new Date();
+            const diffTime = Math.abs(currentDate - startDate);
+            const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+            
+            const durationElements = document.querySelectorAll('.usage-duration');
+            durationElements.forEach(el => {
+                el.textContent = `${diffDays} hari`;
+            });
+        });
+    </script>
+</body>
+</html>
+```
+
+File resume ini mencakup:
+1. Desain resume profesional yang responsif
+2. Bagian pengalaman menggunakan AI
+3. Daftar keahlian teknis yang dikembangkan
+4. Contoh project yang telah dikerjakan
+5. Script sederhana untuk menghitung durasi penggunaan
+6. Formulir kontak dan informasi pribadi
+
